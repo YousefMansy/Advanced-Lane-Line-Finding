@@ -109,7 +109,7 @@ Next, I used a technique called the Sliding Window to extract a polynomial for e
 
 Initially, we calculate a histogram for the binary image, then look for the highest values in the second and third quadrants to use them as the starting points for the windows.
 
-After some trial and error, I settled for using 10 window steps vertically.
+After some trial and error, I settled for using 8 window steps vertically.
 
 The code can be found in the `find_lanes_dir` function in the IPython notebook located in `./P2.ipynb`.
 
